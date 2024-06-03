@@ -8,3 +8,4 @@ spec:
     targetPort: 8888
   selector:
     app: victory-royale
+  type: LoadBalancer
