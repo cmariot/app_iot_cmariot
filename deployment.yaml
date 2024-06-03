@@ -13,7 +13,7 @@ spec:
         app: victory-royale
     spec:
       containers:
-        - image: wil42/playground:v1
+        - image: wil42/playground:v2
           name: victory-royale
       ports:
         - containerPort: 8888
