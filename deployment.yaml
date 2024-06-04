@@ -15,5 +15,5 @@ spec:
       containers:
         - image: wil42/playground:v2
           name: victory-royale
-          ports:
-          - containerPort: 8888
+          # ports:
+          # - containerPort: 8888
