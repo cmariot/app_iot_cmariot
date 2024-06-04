@@ -13,5 +13,5 @@ spec:
         app: victory-royale
     spec:
       containers:
-        - image: cmariot/playground:v1
+        - image: wil42/playground:v1
           name: victory-royale
