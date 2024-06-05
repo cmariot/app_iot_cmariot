@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: victory-royale
+  name: wil-playground
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: victory-royale
+      app: wil-playground
   template:
     metadata:
       labels:
-        app: victory-royale
+        app: wil-playground
     spec:
       containers:
         - image: wil42/playground:v1
-          name: victory-royale
+          name: wil-playground
